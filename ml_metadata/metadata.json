@@ -1,0 +1,43 @@
+{
+  "project_name": "ML Project",
+  "version": "1.0.0",
+  "description": "Machine Learning metadata configuration",
+  "model_info": {
+    "model_name": "",
+    "model_version": "",
+    "model_type": "",
+    "framework": "",
+    "training_date": "",
+    "last_updated": ""
+  },
+  "dataset_info": {
+    "dataset_name": "",
+    "dataset_version": "",
+    "data_source": "",
+    "data_size": "",
+    "features": []
+  },
+  "training_config": {
+    "batch_size": null,
+    "epochs": null,
+    "learning_rate": null,
+    "optimizer": "",
+    "loss_function": ""
+  },
+  "performance_metrics": {
+    "accuracy": null,
+    "precision": null,
+    "recall": null,
+    "f1_score": null,
+    "custom_metrics": {}
+  },
+  "deployment_info": {
+    "deployment_platform": "",
+    "deployment_date": "",
+    "endpoint_url": "",
+    "status": ""
+  },
+  "authors": [],
+  "tags": [],
+  "notes": ""
+}
