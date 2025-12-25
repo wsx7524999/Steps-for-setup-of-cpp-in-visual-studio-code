@@ -1,0 +1,87 @@
+{
+  "api_settings": {
+    "enabled": false,
+    "timeout": 30,
+    "retry_attempts": 3,
+    "log_level": "INFO"
+  },
+  "ml_platforms": {
+    "tensorflow": {
+      "enabled": false,
+      "api_endpoint": "",
+      "api_key": "",
+      "version": ""
+    },
+    "pytorch": {
+      "enabled": false,
+      "api_endpoint": "",
+      "api_key": "",
+      "version": ""
+    },
+    "huggingface": {
+      "enabled": false,
+      "api_endpoint": "https://api-inference.huggingface.co",
+      "api_key": "",
+      "model_id": ""
+    },
+    "openai": {
+      "enabled": false,
+      "api_endpoint": "https://api.openai.com/v1",
+      "api_key": "",
+      "model": ""
+    },
+    "azure_ml": {
+      "enabled": false,
+      "subscription_id": "",
+      "resource_group": "",
+      "workspace_name": "",
+      "api_key": ""
+    },
+    "aws_sagemaker": {
+      "enabled": false,
+      "region": "",
+      "access_key_id": "",
+      "secret_access_key": "",
+      "endpoint_name": ""
+    },
+    "google_ai": {
+      "enabled": false,
+      "project_id": "",
+      "api_key": "",
+      "location": ""
+    }
+  },
+  "vscode_extensions": {
+    "python": {
+      "enabled": true,
+      "linting": true,
+      "formatting": true
+    },
+    "jupyter": {
+      "enabled": true,
+      "kernel_path": ""
+    },
+    "pylance": {
+      "enabled": true,
+      "type_checking": "basic"
+    }
+  },
+  "data_sources": {
+    "local": {
+      "data_path": "./data",
+      "cache_path": "./cache"
+    },
+    "remote": {
+      "enabled": false,
+      "storage_type": "",
+      "connection_string": "",
+      "container_name": ""
+    }
+  },
+  "model_registry": {
+    "enabled": false,
+    "registry_type": "",
+    "registry_url": "",
+    "credentials": {}
+  }
+}
